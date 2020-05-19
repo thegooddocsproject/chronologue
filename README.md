@@ -23,3 +23,7 @@ We hope you find Chronologue useful as a way to explore technical writing and op
 ### How Can I Contribute to Chronologue?
 
 Please see the [Contributors Guide](/CONTRIBUTING.md) (TK).
+
+### Where is the Chronologue README?
+
+The README for the Chronologue project is [README2.md](/README2.md).
