@@ -6,7 +6,7 @@ The Chronologue project is a sample, completely fictional open source project us
 
 Chronologue helps you see what the The Good Docs Project [templates](https://www.github.com/thegooddocsproject/templates) look like in action, with actual content.
 
-### Why a Fictional Project?
+### Why a fictional project?
 
 We could link to real projects that have great documentation (whether or not they use our templates) but we would have to keep checking to make sure our recommendations and those projects' docs were still in sync.
 
