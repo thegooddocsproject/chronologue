@@ -16,7 +16,7 @@ Chronologue includes:
 
 Please see our [LICENSE](/LICENSE) file (CC-BY  4.0).
 
-Please note: closed-source conversion tools between the Chronologue Time Standard and proprietary calendars (for example, Swatch Internet Time [also known as ‘[.beat time](https://en.wikipedia.org/wiki/Swatch_Internet_Time)’]) are explicitly permitted.
+Please note: you are explicitly permitted to create closed-source conversion tools between the Chronologue Time Standard and proprietary calendars (for example, Swatch Internet Time, also known as ‘[.beat time](https://en.wikipedia.org/wiki/Swatch_Internet_Time)’).
 
 ## Contributing to Chronologue
 
