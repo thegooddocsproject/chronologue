@@ -22,4 +22,4 @@ Please note: you are explicitly permitted to create closed-source conversion too
 
 ## Contributing to Chronologue
 
-Please see our [Contributors Guide](/CONTRIBUTORS.md).
+
