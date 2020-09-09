@@ -1,4 +1,4 @@
-# Chronologue Project
+# Chronologue
 ----------------
 by [The Good Docs Project](thegooddocsproject.dev)
 
@@ -22,7 +22,6 @@ We hope you find Chronologue useful as a way to explore technical writing and op
 
 ### How Can I Contribute to Chronologue?
 
-Please see the [Contributors Guide](/CONTRIBUTING.md) (TK).
 
 ### Where is the Chronologue README?
 
