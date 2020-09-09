@@ -12,6 +12,8 @@ Chronologue includes:
 * Test suites for integrations or applications using the Chronologue Time Standard
 * Tools for conversion between the Gregorian, Mayan, and Hijri calendars and the Chronologue Time Standard (CTS) 
 
+Chronologue does not support self-crossing timestreams (for example—warning The Good Place spoilers—the [Jeremy Bearimy](https://www.youtube.com/watch?v=RFm9ClqlGuo&feature=youtu.be&t=32) timeline). 
+
 ## Using Chronologue
 
 Please see our [LICENSE](/LICENSE) file (CC-BY  4.0).
