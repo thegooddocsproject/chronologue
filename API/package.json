@@ -1,0 +1,23 @@
+{
+  "name": "chronologue-api",
+  "version": "1.0.0",
+  "description": "The Good Docs Project's Chronologue API. An API for technical writer who like to peer into the time stream. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegooddocsproject/chronologue.git"
+  },
+  "keywords": [
+    "chronologue",
+    "thegooddocs"
+  ],
+  "author": "Ian Nguyen",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/thegooddocsproject/chronologue/issues"
+  },
+  "homepage": "https://github.com/thegooddocsproject/chronologue#readme"
+}
