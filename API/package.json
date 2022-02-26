@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/thegooddocsproject/chronologue/issues"
   },
-  "homepage": "https://github.com/thegooddocsproject/chronologue#readme"
+  "homepage": "https://github.com/thegooddocsproject/chronologue#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
