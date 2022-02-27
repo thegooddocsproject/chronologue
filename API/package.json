@@ -4,7 +4,7 @@
   "description": "The Good Docs Project's Chronologue API. An API for technical writer who like to peer into the time stream. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
