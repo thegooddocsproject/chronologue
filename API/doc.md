@@ -40,3 +40,8 @@ input both year and location from the list in routes `/all-years-id` and `/all-l
 
 ## Supported HTTP Request Methods
 Currently, the API only supports GET requests, other request methods will be supported in future versions. 
+
+## Usage
+Start the node.js server by typing `npm start` in your terminal at the folder path. Make a GET request to the paths above to explore the data. You can use Postman for this as well. 
+
+**Note**: the event timestamp is in UTC timezone. You will need to convert it to your local timezone using your programming language's time/date module. 
