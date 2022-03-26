@@ -4,7 +4,7 @@ This document plans the initial set of documentation to enable our users to reac
 
 ### Context
 Who we need Documentation for: 
-- End users
+- End users / Scientists
 - Developers
 - Technicians
 
@@ -23,7 +23,7 @@ Use cases are we supporting:
 |  How Chronologue API works | Concept  | ?  |Explains the architecture of the API on a higher level   | Scientist, Developer  |
 | Parts of the Chronologue Time Travel Telescope  |  Concept |  ? |Explains the parts that the telescope is made of. | Technicians  |
 | Requesting a new recording | How-to  |  ? | Explains how to submit a new request for time-travel.  |Scientist   |
-| Adding new entries to the Chronologue catalog  | How-to   |  ? |   | Developer  |
+| Adding new entries to the Chronologue catalog  | How-to   |  ? |  Explains how a developer uses a POST request to add more information | Developer  |
 | Chronologue API reference  |API reference   |  API reference | List of all API calls and their syntax (?)  | Developers  |
 | Troubleshooting XYZ  |Troubleshooting   |  ? | What could we "break" that would need troubleshooting?  |   |
 |Glossary   | Glossary  | ?  | Explains terminology used in this project  | End users, Scientists, Technicians  |
