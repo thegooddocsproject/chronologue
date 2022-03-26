@@ -1,5 +1,21 @@
 # Chronologue Documentation plan
 
+This document plans the initial set of documentation to enable our users to reach their goals
+
+### Context
+Who we need Documentation for: 
+- End users
+- Developers
+- Technicians
+
+Use cases are we supporting:
+- Viewing entries
+- Requesting viewing time
+- Adding new entries
+- 
+
+### Content outline
+
 |Title   |Content Type   |Tests Template   | Description  | Audience |
 |---|---|---|---|---|
 |Getting started with Chronologue  | Getting started  | Quickstart (?)  | Explains how to find an event and view it.  | End users  |
