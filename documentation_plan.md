@@ -1,6 +1,7 @@
 # Chronologue Documentation plan
 
-This document plans the initial set of documentation to enable our users to reach their goals
+This document plans the initial set of documentation to enable our users to reach their goals. 
+The documentation will be written and maintained in the Good Docs [website repo](https://github.com/thegooddocsproject/website-hugo). 
 
 ### Context
 Who we need Documentation for: 
