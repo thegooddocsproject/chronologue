@@ -6,6 +6,9 @@ The Chronologue project is a completely fictional open source project used to il
 
 Chronologue helps you see what the The Good Docs Project [templates](https://www.github.com/thegooddocsproject/templates) look like in action, with actual content.
 
+This repository contains files for the Chronologue API. We keep a summary of our knowledge in the [Chronologue Wiki](https://github.com/thegooddocsproject/chronologue/wiki). 
+The documentation for Chronologue will be hsoted on [the Good Docs project website](https://github.com/thegooddocsproject/website-hugo). 
+
 ### Why a fictional project?
 
 We could link to real projects that have great documentation (whether or not they use our templates) but we would have to keep checking to make sure our recommendations and those projects' docs were still in sync.
@@ -24,8 +27,5 @@ We hope you find Chronologue useful as a way to explore technical writing and op
 
 📆 Attend a Chronologue meeting. See the [calendar](https://thegooddocsproject.dev/community/#calendar) for meeting details. 
 
-📄 Check oout what we did so far in our [meeting notes](https://docs.google.com/document/d/1Pr8ncPr2qAnwE4umr4lFVRiUhBGM1n8wESKgrz2YEoo/edit?usp=sharing)
+📄 Check out what we did so far in our [meeting notes](https://docs.google.com/document/d/1Pr8ncPr2qAnwE4umr4lFVRiUhBGM1n8wESKgrz2YEoo/edit?usp=sharing)
 
-### Where is the Chronologue README?
-
-The README for the Chronologue project is [README2.md](/README2.md).
