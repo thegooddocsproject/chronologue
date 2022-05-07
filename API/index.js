@@ -8,6 +8,8 @@ const {
   allYearsAllLocation,
 } = require('./api-data.js');
 
+//for Netlify Functions 
+const serverless = require('serverless-http');
 
 app.get('/', (req, res) => {
   res.status(200).json(allRoutes);
@@ -65,3 +67,5 @@ app.get('/year/:year/location/:location', (req, res) => {
 app.listen(port, () => {
   console.log(`Chronologue server API listening at http://localhost:${port}`);
 });
+
+module.exports.handler = serverless(app);
