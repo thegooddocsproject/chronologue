@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const router = express.Router()
 const port = 8080;
 const {
   allRoutes,
@@ -11,19 +12,19 @@ const {
 //for Netlify Functions 
 const serverless = require('serverless-http');
 
-app.get('/', (req, res) => {
+router.get('/', (req, res) => {
   res.status(200).json(allRoutes);
 });
 
-app.get('/all-locations-id', (req, res) => {
+router.get('/all-locations-id', (req, res) => {
   res.status(200).json(allLocationsID);
 });
 
-app.get('/all-years-id', (req, res) => {
+router.get('/all-years-id', (req, res) => {
   res.status(200).json(allYears);
 });
 
-app.get('/year/:year', (req, res) => {
+router.get('/year/:year', (req, res) => {
   console.log(req.params);
 
   if (!req.params.year) {
@@ -36,7 +37,7 @@ app.get('/year/:year', (req, res) => {
   yearlyDataOnly.length === 0 ? res.status(404).json("requested data not found. Check your request parameter again or reference the API routes docs") : res.status(200).json(yearlyDataOnly);
 });
 
-app.get('/location/:location', (req, res) => {
+router.get('/location/:location', (req, res) => {
   console.log(req.params);
 
   const locationEventData = allYearsAllLocation.map((x) => {
@@ -50,7 +51,7 @@ app.get('/location/:location', (req, res) => {
   res.status(200).json(locationEventData);
 });
 
-app.get('/year/:year/location/:location', (req, res) => {
+router.get('/year/:year/location/:location', (req, res) => {
   console.log(req.params);
 
   if (!req.params.location || !req.params.year) {
@@ -63,6 +64,8 @@ app.get('/year/:year/location/:location', (req, res) => {
   yearAndLocationData.length === 0 ? res.status(404).json("requested data not found. Check your request parameter again or reference the API routes docs") : res.status(200).json(yearAndLocationData);
 
 });
+
+app.use('/.netlify/functions/server', router);
 
 app.listen(port, () => {
   console.log(`Chronologue server API listening at http://localhost:${port}`);
