@@ -4,6 +4,7 @@
   "description": "The Good Docs Project's Chronologue API. An API for technical writer who like to peer into the time stream. ",
   "main": "index.js",
   "scripts": {
+    "build": "netlify-lambda build express",
     "start": "node index.js"
   },
   "repository": {
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/thegooddocsproject/chronologue#readme",
   "dependencies": {
     "express": "^4.17.3",
+    "netlify-lambda": "^2.0.15",
     "serverless-http": "^3.0.1"
   }
 }
