@@ -7,7 +7,9 @@ const {
   allYears,
   allLocationsID,
   allYearsAllLocation,
-} = require('./api-data.js');
+} = require('../api-data.js');
+
+const path = require('path');
 
 //for Netlify Functions 
 const serverless = require('serverless-http');
@@ -65,10 +67,11 @@ router.get('/year/:year/location/:location', (req, res) => {
 
 });
 
-app.use('/netlify/functions/index', router);
+app.use('/.netlify/functions/server', router);
 
-app.listen(port, () => {
-  console.log(`Chronologue server API listening at http://localhost:${port}`);
-});
+app.use('/', (req, res) => res.sendFile(path.join(__dirname, '../index.html')));
 
+
+
+module.exports = app;
 module.exports.handler = serverless(app);
