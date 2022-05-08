@@ -65,7 +65,7 @@ router.get('/year/:year/location/:location', (req, res) => {
 
 });
 
-app.use('/.netlify/functions/server', router);
+app.use('/netlify/functions/server', router);
 
 app.listen(port, () => {
   console.log(`Chronologue server API listening at http://localhost:${port}`);
