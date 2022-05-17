@@ -1,0 +1,39 @@
+.banner{
+    background-color: #B5179E;
+    padding: 8px;
+    color:white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.welcome{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.welcome_input{
+    border-color: #B5179E;
+    padding: 8px;
+}
+
+.welcome_button{
+    border: none;
+    background-color: #B5179E;
+    padding: 8px;
+    font-weight: 500;
+    color: white;
+}
+
+.welcome_inner{
+    margin: 20px;
+
+}
+
+.learn{
+    background-color: #560BAD;
+    padding: 8px;
+    color: white;
+}
