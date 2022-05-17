@@ -28,7 +28,6 @@ export default function ApiCall({posts}) {
         ))}
         </ul>
       
-    <a href="/">home</a>
 
     </div>
   )
