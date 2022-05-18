@@ -1,5 +1,5 @@
 /**
- * for both year + locaation resources url
+ * for both year + location resources url
  * country
  * year
  *
@@ -9,16 +9,19 @@
  */
 
 // standardize date format
+/**
+ * 
+ * @param {string} date YYYY-MM-DD
+ * @returns {string}
+ */
 const formatDateToISOString = (date) => {
   let defaultDateFormat = new Date(date);
-  console.log(defaultDateFormat);
-
   let isoDateString = defaultDateFormat.toISOString();
-  console.log(isoDateString);
 
   return isoDateString;
 };
 
+// in case we need to reconvert ISO strings back to locale date format
 const formatUTCDatetoLocale = (date) => {
   let sentIsoDate = date.replace(/-/g, "/").replace(/T.+/, "");
   let toLocaleDateString = new Date(sentIsoDate).toLocaleDateString();
@@ -26,9 +29,7 @@ const formatUTCDatetoLocale = (date) => {
   return toLocaleDateString;
 };
 
-// prevents date conversion from moving one day backward
-
-// sorted from past to future
+// All API data lives in this object. Please take great care of it :)
 let apiData = [
   {
     year: "1781",
