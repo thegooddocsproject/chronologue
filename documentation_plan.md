@@ -21,7 +21,7 @@ Use cases are we supporting:
 |Getting started with Chronologue  | Getting started  | Quickstart (?)  | Explains how to find an event and view it.  | End users  | Tina
 |How Chronologue works  |Concept   | ?  | Explains scientific background. [Written down here](https://github.com/thegooddocsproject/chronologue/wiki/Technology-of-the-Chronologue-telescope-explained)   |  | Tina|
 |  How Chronologue API works | Concept  | ?  |Explains the architecture of the API on a higher level   | Scientist, Developer  | Ian|
-| Parts of the Chronologue Time Travel Telescope  |  Concept |  ? |Explains the parts that the telescope is made of. | Technicians  |Tina, Serena|
+| Parts of the Chronologue Time Travel Telescope  |  Concept |  ? |Explains the parts that the telescope is made of. | Technicians  |Ricky, Serena|
 | Requesting a new recording | How-to  |  ? | Explains how to submit a new request for time-travel. |Scientist   |Tina|
 | Adding new entries to the Chronologue catalog  | How-to   |  ? |  Explains how a developer uses a POST request to add more information | Developer  |Ian|
 | Chronologue API reference  |API reference   |  API reference | List of all API calls and their syntax (?)  | Developers  |Ian|
