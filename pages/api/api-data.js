@@ -238,20 +238,10 @@ let apiData = [
 exports.allYearsAllLocation = [...apiData];
 
 // GET all location data
-exports.allLocationsID = [
-  {
-    continent: [
-      "australia",
-      "europe",
-      "north-america",
-    ],
-  },
-];
+exports.allLocationsID = apiData.flatMap((x)=> x.allContinents ).map((y)=> y.continent);
 
 // GET all year data
-exports.allYears = [
-  1781, 1957, 1961, 1968, 2012, 2016, 2021, 2024, 3000
-];
+exports.allYears = apiData.map((year)=> year.year);
 
 // GET all available API routes
 exports.allRoutes = [
