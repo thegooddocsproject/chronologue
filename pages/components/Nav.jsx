@@ -13,7 +13,7 @@ export default function Nav() {
     <ul className={style.list}>
       <li className={style.list_item}>Home</li>
       <li className={style.list_item}>Events</li>
-      <li className={style.list_item}>Documentation</li>
+      <li className={style.list_item} href="https://thegooddocsproject.dev/chronologue">Documentation</li>
       <li className={style.list_item}>Community</li>
     </ul>
   </nav>
