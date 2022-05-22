@@ -1,29 +1,6 @@
-[
-    {
-        "year": "3320",
-        "allContinents": [
-            {
-                "continent": "asia",
-                "country": "malaysia",
-                "events": [
-                    {
-                        "event": "launched the first teleportation as a service",
-                        "date": "3320-2-10",
-                        "image": "",
-                        "video": "",
-                        "links": [
-                            ""
-                        ]
-                    }
-                ]
-            }
-        ]
-    }
-],
-
 [ //Array can hold multiple objects
     { //Object
-        "year": "3320", //"string". Only one value
+        "year": "2329", //"string". Only one value
         "allContinents": [ //Array can hold multiple objects
             { //Object. Only contain the below keys/values
                 "continent": "asia", // string. Only one value
@@ -37,7 +14,17 @@
                         "links": [ //Array. Can hold multiple strings
                             ""
                         ]
-                    }
+                    },
+                    { // Object. Can only contain the below keys/values
+                        "event": "launched the first teleportation as a service", // string. Only one value
+                        "date": "3320-2-10", // string. Only one value YYYY-MM-DD
+                        "image": "https://i.imgur.com/dBm6h3p.png", // string. Only one value 
+                        "video": "", // string. Only one value
+                        "links": [ //Array. Can hold multiple strings
+                            "https://en.wikipedia.org/wiki/Teleportation",
+                            "https://en.wikipedia.org/wiki/Teleportation"
+                        ]
+                    },
                 ]
             }
         ]
