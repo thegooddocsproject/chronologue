@@ -1,7 +1,7 @@
 # Chronologue App and Documentation plan
 
 This document lays down some funamentals regarding the Chronologue app and plans the initial set of documentation. 
-The API is data is stored in this repository and dopleyed with Netlify. 
+The API data is stored in this repository and deployed with Netlify. 
 The documentation will be written and maintained in the Good Docs [website repo](https://github.com/thegooddocsproject/website-hugo). 
 
 ## Who will find the Chronologue useful 
@@ -14,7 +14,7 @@ The documentation will be written and maintained in the Good Docs [website repo]
 
 ### Target audience 
 
-Who we need documentation for:
+Who we need to write documentation for:
 - End users / Scientists
 - Developers
 - Technicians (fictional)
