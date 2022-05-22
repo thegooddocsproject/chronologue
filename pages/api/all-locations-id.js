@@ -1,8 +1,6 @@
 const {
-    allRoutes,
-    allYears,
     allLocationsID,
-    allYearsAllLocation,
+
   } = require('./api-data.js');
 
 export default async (req, res) => {

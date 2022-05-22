@@ -4,20 +4,16 @@
  *
  *
  */
-
 const { allYearsAllLocation } = require("../pages/api/api-data.js");
 const fs = require("fs/promises");
-const fsCallback = require("fs");
+
 
 //read and parse JSON data files
 let dataString = JSON.stringify(allYearsAllLocation);
 
-// fs.writeFile('data.json',dataString).catch((err)=> console.log(err))
-
 //read dir => require all JSON files => parse all => flat merge all arrays => append to data.json file
 let dataArr = [];
-
-let allData = [];
+let allFragmentNames = [];
 
 const readFilesAll = async () => {
   try {
@@ -26,16 +22,17 @@ const readFilesAll = async () => {
     dataArr = [...fileNames];
 
     dataArr.forEach((item) => {
-      allData.push(require("./fragments/" + item));
+      allFragmentNames.push(require("./fragments/" + item));
     });
 
-    let flattened = allData.flat();
+    let flattened = allFragmentNames.flat();
     let mergeAll = allYearsAllLocation.concat(flattened);
 
     console.log(mergeAll);
 
     let writeAll = await fs.writeFile("./data.json", JSON.stringify(mergeAll));
 
+    //will return undefined upon successful write
     console.log(writeAll);
   } catch (error) {
     console.log(error);

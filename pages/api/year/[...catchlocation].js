@@ -1,7 +1,4 @@
 const {
-    allRoutes,
-    allYears,
-    allLocationsID,
     allYearsAllLocation,
   } = require('../api-data.js');
 
