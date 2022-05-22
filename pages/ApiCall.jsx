@@ -1,34 +1,31 @@
 export async function getStaticProps() {
-  const res = await fetch('https://chronologue.netlify.app/api/all')
-  const posts = await res.json()
-  console.log(res)
+  const res = await fetch("http://localhost:3000/api/all");
+  const posts = await res.json();
   return {
     props: {
       posts,
     },
-  }
+  };
 }
 
 export default function ApiCall({ posts }) {
-  console.log(posts)
   return (
-    <div>
+    <>
+        <ul>
+          <li>Event Name</li>
+          <li>Continents</li>
+          <li>Date/Time</li>
+        </ul>
 
-      <table>
-        <tr>
-          <th>Event Name</th>
-          <th>Continents</th>
-          <th>Date/Time</th>
-        </tr>
-        <tr>
-          <td>Launched a space rocket</td>
-          <td>europe</td>
-          <td>2012-12-21</td>
-        </tr>
-
-      </table>
-
-
-    </div>
-  )
+        {posts.map((item, index) => {
+        return (
+          <ul key={index}>
+            <li>{item.events[0].event}</li>
+            <li>{item.continent}</li>
+            <li>{item.events[0].date}</li>
+          </ul>
+        );
+      })}
+    </>
+  );
 }
