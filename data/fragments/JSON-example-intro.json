@@ -1,0 +1,17 @@
+
+[1,2,3, 2022, {"obj": "string text"}]
+{
+    "key": "value",
+    "key2": [1,2,3],
+    "key3": true,
+    "key4": false
+},
+
+"normal text"
+
+2022
+
+true
+false 
+
+
