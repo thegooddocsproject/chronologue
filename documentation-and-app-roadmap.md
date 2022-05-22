@@ -3,18 +3,12 @@
 This document plans the initial set of documentation to enable our users to reach their goals. 
 The documentation will be written and maintained in the Good Docs [website repo](https://github.com/thegooddocsproject/website-hugo). 
 
-### Context
-Who we need Documentation for: 
-- End users / Scientists
+## Who will find The Chronologue useful 
+- Casual readers
 - Developers
-- Technicians
+- Technical writers
 
-Use cases are we supporting:
-- Viewing entries
-- Requesting viewing time
-- Adding new entries
-
-### Content outline
+## Content outline
 
 |Title   |Content Type   |Tests Template   | Description  | Audience | Assigned to |
 |---|---|---|---|---|----|
@@ -33,3 +27,29 @@ Use cases are we supporting:
 Column
 |   |   |   |   |   |
 -->
+
+# About The Chronologue API
+
+## Lisence 
+The API will use Zero clause BSD.
+
+## Types of Documentation Needed
+- API routes
+- Quick start guide
+- Bug reporting guide
+- Concept explanation guide
+
+## Future features
+**Note**: Since the app is hosted on Netlify, all future feature implementations must be compatible with Netlify. 
+
+- User authentication using OAuth 2.0 
+    - Current plan is to use NextAuth.js or other Netlify-supported plugin to enable authentication.
+- ~~API cache will be handled by Next.js and Netlify~~ 
+
+# Contributing
+You can start contributing to the following parts of the repository: 
+- API data, located in: `/data/fragments`
+- Next.js web view and app logics. You can help making The Chronologue look more polished and functional by contributing to program code. You should be familiar to the following concepts:
+    - React library
+    - Next.js framework
+    - Netlify hosting infrastructure
