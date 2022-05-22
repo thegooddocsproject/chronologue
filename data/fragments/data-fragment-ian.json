@@ -1,0 +1,22 @@
+[
+    {
+        "year": "2030",
+        "allContinents": [
+            {
+                "continent": "asia",
+                "country": "vietnam",
+                "events": [
+                    {
+                        "event": "created a new method to dry and preserve food for long-term preservation",
+                        "date": "2030-12-23",
+                        "image": "",
+                        "video": "",
+                        "links": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
