@@ -1,14 +1,32 @@
-# Chronologue Documentation plan
+# Chronologue App and Documentation plan
 
-This document plans the initial set of documentation to enable our users to reach their goals. 
+This document lays down some funamentals regarding the Chronologue app and plans the initial set of documentation. 
+The API is data is stored in this repository and dopleyed with Netlify. 
 The documentation will be written and maintained in the Good Docs [website repo](https://github.com/thegooddocsproject/website-hugo). 
 
-## Who will find The Chronologue useful 
+## Who will find the Chronologue useful 
 - Casual readers
 - Developers
 - Technical writers
 
-## Content outline
+
+## Documentation plan
+
+### Target audience 
+
+Who we need documentation for:
+- End users / Scientists
+- Developers
+- Technicians (fictional)
+
+### Use cases
+
+Use cases are we supporting:
+- Viewing entries
+- Requesting viewing time
+- Adding new entries
+
+### Content outline
 
 |Title   |Content Type   |Tests Template   | Description  | Audience | Assigned to |
 |---|---|---|---|---|----|
@@ -19,6 +37,7 @@ The documentation will be written and maintained in the Good Docs [website repo]
 | Requesting a new recording | How-to  | [How-to](https://github.com/thegooddocsproject/templates/tree/dev/how-to) | Explains how to submit a new request for time-travel. |Scientist   |Tina|
 | Adding new entries to the Chronologue catalog  | How-to   |  [API quickstart](https://github.com/thegooddocsproject/templates/tree/dev/api-quickstart) |  Explains how a developer uses a POST request to add more information | Developer  |Tina|
 | Chronologue API reference  |API reference   |  [API reference](https://github.com/thegooddocsproject/templates/tree/dev/api-reference) ! Probably updated soon | List of all endpoints.  | Developers  |Tina|
+| Bug reporting |How-to  |  [How-to](https://github.com/thegooddocsproject/templates/tree/dev/how-to) | Explains how to report API bugs and other issues with the Chronologue wenbsite.  | Developers  |Tina|
 | Troubleshooting XYZ  |Troubleshooting   |  ? | What could we "break" that would need troubleshooting?  | Technicians  |Maybe Ricky|
 |Glossary   | Glossary  | ?  | Explains terminology used in this project  | End users, Scientists, Technicians  |Tina|
 | Release Notes  | Changelog   |  ? | Describes which features we introduced and why or what features we deprecated  |  Developers |Tina/ Ian|
@@ -28,16 +47,20 @@ Column
 |   |   |   |   |   |
 -->
 
-# About The Chronologue API
+## App plan: About The Chronologue API
 
-## Lisence 
+## Licence 
 The API will use Zero clause BSD.
 
-## Types of Documentation Needed
-- API routes
+## Types of Documentation needed
+
+> Note: The documents mentioned below are part of the documentation plan. We list the documents here as well for a better overview. 
+
+The API needs the following documentation: 
+- API reference: Endpoints and routes
+- Concept explanation guide
 - Quick start guide
 - Bug reporting guide
-- Concept explanation guide
 
 ## Future features
 **Note**: Since the app is hosted on Netlify, all future feature implementations must be compatible with Netlify. 
