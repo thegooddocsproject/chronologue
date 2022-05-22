@@ -19,4 +19,27 @@
             }
         ]
     }
+],
+
+[ //Array can hold multiple objects
+    { //Object
+        "year": "3320", //"string". Only one value
+        "allContinents": [ //Array can hold multiple objects
+            { //Object. Only contain the below keys/values
+                "continent": "asia", // string. Only one value
+                "country": "malaysia", // string. Only one value
+                "events": [ //array. Can hold multiple objects
+                    { // Object. Can only contain the below keys/values
+                        "event": "launched the first teleportation as a service", // string. Only one value
+                        "date": "3320-2-10", // string. Only one value
+                        "image": "", // string. Only one value 
+                        "video": "", // string. Only one value
+                        "links": [ //Array. Can hold multiple strings
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 ]
