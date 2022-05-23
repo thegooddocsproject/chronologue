@@ -1,5 +1,5 @@
 export async function getStaticProps() {
-  const res = await fetch("http://localhost:3000/api/all");
+  const res = await fetch("https://chronologue.netlify.app/api/all");
   const posts = await res.json();
   return {
     props: {
