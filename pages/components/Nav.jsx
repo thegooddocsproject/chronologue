@@ -1,5 +1,6 @@
 import style from '../../styles/Nav.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Nav() {
   return (
@@ -11,10 +12,22 @@ export default function Nav() {
     alt=''/>
     <p>chronologue</p>
     <ul className={style.list}>
-      <li className={style.list_item}>Home</li>
-      <li className={style.list_item}>Events</li>
+      <li className={style.list_item}>
+        <Link href='/'>
+        Home
+        </Link>
+        </li>
+      <li className={style.list_item}>
+        <Link href='/ApiCall'>
+        Events
+        </Link>
+        </li>
       <li className={style.list_item} href="https://thegooddocsproject.dev/chronologue">Documentation</li>
-      <li className={style.list_item}>Community</li>
+      <li className={style.list_item}>
+        <Link href='/Community'>
+        Community
+        </Link>
+        </li>
     </ul>
   </nav>
   )

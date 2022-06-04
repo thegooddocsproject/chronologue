@@ -1,6 +1,6 @@
 # Chronologue App and Documentation plan
 
-This document lays down some funamentals regarding the Chronologue app and plans the initial set of documentation. 
+This document lays down some fundamentals regarding the Chronologue app and plans the initial set of documentation. 
 The API data is stored in this repository and deployed with Netlify. 
 The documentation will be written and maintained in the Good Docs [website repo](https://github.com/thegooddocsproject/website-hugo). 
 
@@ -72,7 +72,7 @@ The API needs the following documentation:
 # Contributing
 You can start contributing to the following parts of the repository: 
 - API data, located in: `/data/fragments`
-- Next.js web view and app logics. You can help making The Chronologue look more polished and functional by contributing to program code. You should be familiar to the following concepts:
+- Next.js web view and app logics. You can help make The Chronologue look more polished and functional by contributing to program code. You should be familiar to the following concepts:
     - React library
     - Next.js framework
     - Netlify hosting infrastructure
