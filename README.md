@@ -1,31 +1,56 @@
-# Chronologue
-----------------
-by [The Good Docs Project](thegooddocsproject.dev)
+# Chronologue documentation
 
-The Chronologue project is a completely fictional open source project used to illustrate what good documentation looks like in practice.
+This branch contains the Chronologue documentation. 
+To document Chronologue, we use the static site generator [docusaurus](https://docusaurus.io/). 
+We chose docusaurus for its ability to be highly customized. 
 
-Chronologue helps you see what the The Good Docs Project [templates](https://www.github.com/thegooddocsproject/templates) look like in action, with actual content.
+### Docusaurus directory structure
 
-This repository contains files for the Chronologue API. We keep a summary of our knowledge in the [Chronologue Wiki](https://github.com/thegooddocsproject/chronologue/wiki). 
-The documentation for Chronologue will be hsoted on [the Good Docs project website](https://github.com/thegooddocsproject/website-hugo). 
 
-### Why a fictional project?
+## How to add contribute documentation to Chronologue
 
-We could link to real projects that have great documentation (whether or not they use our templates) but we would have to keep checking to make sure our recommendations and those projects' docs were still in sync.
+There are two types of workflows you can use to contribute documentation: 
 
-By using a fictional project we can also give examples of what _not_ to do without hurting anyone's feelings.
+- Directly in Github
+- Using Gitpod 
 
-### How Can I Use Chronologue?
 
-Chronologue is primarily an educational resource. You are free to link to, reproduce, or repurpose this text, within the bounds of our [license](/LICENSE).
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-We hope you find Chronologue useful as a way to explore technical writing and open source project documentation using templates.
+### Installation
 
-### How Can I Contribute to Chronologue?
+```
+$ yarn
+```
 
-👋 Say hi in our [slack channel](https://thegooddocs.slack.com/archives/C016L3962CU).
+### Local Development
 
-📆 Attend a Chronologue meeting. See the [calendar](https://thegooddocsproject.dev/community/#calendar) for meeting details. 
+```
+$ yarn start
+```
 
-📄 Check out what we did so far in our [meeting notes](https://docs.google.com/document/d/1Pr8ncPr2qAnwE4umr4lFVRiUhBGM1n8wESKgrz2YEoo/edit?usp=sharing)
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
