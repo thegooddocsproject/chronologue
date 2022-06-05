@@ -53,18 +53,13 @@ const config = {
       navbar: {
         title: 'Chronologue',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Doctopus mascot',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docusaurus Tutorial',
-          },
-          {to: '/docs/chronologue', label: 'Chronologue User Documentation', position: 'left'},
-          {to: '/docs/API', label: 'Chronologue API Documentation', position: 'left'},
+      
+          {to: '/docs/chronologue', label: 'User Documentation', position: 'left'},
+          {to: '/docs/API', label: 'API Documentation', position: 'left'},
           {
             href: 'https://github.com/thegooddocsproject/chronologue',
             label: 'GitHub',
@@ -79,8 +74,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'User Documentation',
+                to: '/docs/chronologue',
+              },
+              {
+                label: 'API Documentation',
+                to: '/docs/API',
               },
             ],
           },
@@ -88,28 +87,24 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'The Good Docs Project',
+                to: 'https://thegooddocsproject.dev/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
+                label: 'Chronologue on GitHub',
                 href: 'https://github.com/thegooddocsproject/chronologue',
               },
+              {
+                label: '#chronologue-docs on Slack',
+                href: 'https://thegooddocs.slack.com/',
+              },
+              {
+                label: 'The Good Docs Twitter',
+                href: 'https://twitter.com/thegooddocs',
+              },
             ],
           },
+          
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Chronologue powered by The Good Docs Project.`,
       },
