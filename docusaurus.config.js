@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Chronologue Documentation',
   tagline: 'Dinosaurs are cool',
-  url: 'https://chronologue-docs.netlify.app',
+  url: 'https://chronologue.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
