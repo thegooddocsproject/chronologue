@@ -6,4 +6,4 @@
   package = "@netlify/plugin-nextjs"
   
 [context.docs]
-  publish "build"
+  publish = "build"
