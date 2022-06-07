@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "./components/Layout";
-
-import style from "./../styles/Community.module.css";
+import style from "./Community.module.css";
 
 export default function Community() {
   return (
