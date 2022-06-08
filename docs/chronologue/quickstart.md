@@ -5,8 +5,9 @@ sidebar_position: 10
 draft: true
 ---
 
-This document should test the quickstart template. 
+<!-- This document should test the quickstart template. 
 Explains how to find an event and view it.
+While you are working through this template, jot your feedback down in the feedback document for the templateers. https://docs.google.com/document/d/1fR_cNjN5TfjqcxTmdTOmUJby_cx_QluuoUybJcR02pM/edit?usp=sharing ---> 
 
 # Title
 
