@@ -79,11 +79,11 @@ Writing or editing files directly on Github is a good way to get started if you 
 1. In your working branch, locate the file you want to edit. 
 2. Verify that you are in your working branch. <br/>
    <img width="600" alt="branch-overview" src="https://user-images.githubusercontent.com/13576110/172507864-b76f3163-f084-48cc-831e-233779c76934.png">
-3. Hit the _Edit this file_ button.<br/>
+3. Click the _Edit this file_ button.<br/>
    <img width="429" alt="image" src="https://user-images.githubusercontent.com/13576110/172506536-94669369-a5a3-4b2a-9aa5-66eeeebf2442.png">
 4. Edit the file using standard Markdown syntax. To see a preview, switch to the _Preview_ tab. <br/>
    <img width="291" alt="image" src="https://user-images.githubusercontent.com/13576110/172506797-4cb454e4-8c4c-4db9-85fc-7ebe9568c0c9.png">
-5. Supplement a meaningful commit message. Remember: We are open source and your changes are visible to the public. You can commit directly on your working branch.<br/>
+5. Add a meaningful commit message. Remember: We are open source and your changes are visible to the public. You can commit directly to your working branch.<br/>
    <img width="738" alt="image" src="https://user-images.githubusercontent.com/13576110/172507525-a51253e3-0bc1-41c3-9c57-1ae196af92b0.png">
    > ✔️ Congrats, you just created a **commit**.
 
@@ -95,7 +95,7 @@ Writing or editing files directly on Github is a good way to get started if you 
 2. Click on _Contribute_ and use the _Compare_ option. <br/> 
    <img width="726" alt="Go to file" src="https://user-images.githubusercontent.com/13576110/172509325-698203d3-76e9-4065-a481-df432ae01113.png">
 3. Because we want to merge our changes in the `docs` branch, make sure that your changes are compared `docs` and **not** `main`. <br/>
-   Click on _Create pull request_. 
+   Click _Create pull request_. 
 <img width="1000" alt="Comparing changes" src="https://user-images.githubusercontent.com/13576110/172508715-fc158257-e90c-4dbf-bb97-5f5182ddf644.png">
 4. Describe the changes you made and assign me (@kickoke) as a reviewer. Create the PR. 
    > ℹ️ After you created your PR, @kickoke or someone who got assigned will review your changes. When you have at least **one** approval, your contribution gets merged into `docs` and your content is online. ✨ 
