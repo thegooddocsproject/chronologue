@@ -22,7 +22,11 @@ export default function Nav() {
         Events
         </Link>
         </li>
-      <li className={style.list_item} href="https://thegooddocsproject.dev/chronologue">Documentation</li>
+      <li className={style.list_item}>
+        <Link href='/EventDetails'>
+        Documentation
+        </Link>
+        </li>
       <li className={style.list_item}>
         <Link href='/Community'>
         Community

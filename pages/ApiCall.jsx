@@ -1,10 +1,10 @@
 import Layout from "./components/Layout";
 
 export async function getStaticProps() {
-  const res = await fetch("https://chronologue.netlify.app/api/server");
-  const posts = await res.text();
-  // .json();
-  console.log(posts);
+  const res = await fetch("https://chronologue.netlify.app/api/all");
+  const posts = await res.json();
+  let year1 = posts.map((x)=> x.year)
+  console.log(year1);
   return {
     props: {
       posts,
@@ -13,13 +13,13 @@ export async function getStaticProps() {
 }
 
 /**
- * 
- * @param {*} param0 
+ *
+ * @param {*} param0
  * @returns JSX
- * 
+ *
  * @todo
  * handle clicks event to call api and pass the event details to <EventDetails/>
- * API req caching for performance? 
+ * API req caching for performance?
  */
 export default function ApiCall({ posts }) {
   return (
@@ -31,7 +31,16 @@ export default function ApiCall({ posts }) {
           <li>Date/Time</li>
         </ul>
 
-        
+        <table>
+          <tr>
+            <th>Month</th>
+            <th>Savings</th>
+          </tr>
+          <tr>
+            <td>January</td>
+            <td>$100</td>
+          </tr>
+        </table>
         {/* {posts.map((item, index) => {
         return (
           <ul key={index}>

@@ -1,8 +1,5 @@
 const {
-  allRoutes,
-  allYears,
-  allLocationsID,
-  allYearsAllLocation,
+  allRoutes
 } = require('./api-data.js');
 
 //rewriting for next.js api routes

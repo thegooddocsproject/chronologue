@@ -32,8 +32,6 @@ const formatUTCDatetoLocale = (date) => {
 // All API data lives in this object. Please take great care of it :)
 const apiData = require('../../data/data.json')
 
-console.log(JSON.stringify(apiData))
-
 // all year + all Location. Current source of truth for API calls
 let allYearsAllLocation = [...apiData];
 
