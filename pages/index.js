@@ -12,7 +12,7 @@ export default function Home() {
         <title>Welcome to the Chronologue</title>
         <meta
           name="description"
-          content="The Chronologue - a mock tool for documentatopn purpose"
+          content="The Chronologue - a mock tool for documentation purpose"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './../../styles/Footer.module.css'
+import style from './Footer.module.css'
 
 export default function Footer() {
     let dateObj = new Date
