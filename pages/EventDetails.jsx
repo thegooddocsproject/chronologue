@@ -10,7 +10,7 @@ export async function getStaticProps() {
    * Include Year + Continent keys in the server data route?
    */
   const res = await fetch(
-    "http://localhost:3000/api/year/1957/location/europe"
+    "https://chronologue.netlify.app/api/year/1957/location/europe"
   );
   const data = await res.json();
   // console.log(data)

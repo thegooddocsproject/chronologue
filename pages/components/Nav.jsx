@@ -1,14 +1,15 @@
 import style from './Nav.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import logo from './../../public/GalaxyDoctopus.svg'
 
 export default function Nav() {
   return (
     <nav className={style.nav}>
     <Image 
-    src='/../public/GalaxyDoctopus.svg' 
-    width='12px'
-    height='12px'
+    src={logo}
+    width='50px'
+    height='50px'
     alt=''/>
     <p>chronologue</p>
     <ul className={style.list}>
