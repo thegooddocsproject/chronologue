@@ -1,12 +1,13 @@
 import Layout from "./components/Layout";
+import style from './ApiCall.module.css';
 
 export async function getStaticProps() {
   const res = await fetch("https://chronologue.netlify.app/api/all");
   const posts = await res.json();
- 
+
   await console.log(posts);
 
-  let data = [1,2,3,4,5,6,7,8];
+  let data = posts;
 
   return {
     props: {
@@ -26,9 +27,10 @@ export async function getStaticProps() {
  */
 export default function ApiCall({ data }) {
   return (
-    <>
-      <Layout>
-        <table>
+    <Layout>
+      <section className={style.section}>
+        <input type="text" placeholder="Search" />
+        <table className={style.table}>
           <tr>
             <th>Event Name</th>
             <th>Continents</th>
@@ -38,17 +40,14 @@ export default function ApiCall({ data }) {
           {data.map((item, index) => {
             return (
               <tr key={index}>
-                <td>{item}</td>
-                <td>{item}</td>
-                <td>{item}</td>
+                <td>{item.event}</td>
+                <td>{item.continent}</td>
+                <td>{item.date}</td>
               </tr>
             );
           })}
-
-
         </table>
-
-      </Layout>
-    </>
+      </section>
+    </Layout>
   );
 }

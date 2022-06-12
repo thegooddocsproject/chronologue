@@ -10,7 +10,7 @@ const {
      * all objects have continent key, event name, date key
      */
     let filtered = [];
-    let continent = [];
+
     allYearsAllLocation.forEach((item)=> {
       item.allContinents.forEach((v)=> {
         v.events.forEach((b)=> b.continent = v.continent)
