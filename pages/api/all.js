@@ -4,6 +4,23 @@ const {
   
   //rewriting for next.js api routes
   export default async (req, res) => {
-    res.status(200).json(allYearsAllLocation);
+    /**
+     * TODO
+     * traverse and merge all 2d arrays
+     * all objects have continent key, event name, date key
+     */
+    let filtered = [];
+    let continent = [];
+    allYearsAllLocation.forEach((item)=> {
+      item.allContinents.forEach((v)=> {
+        v.events.forEach((b)=> b.continent = v.continent)
+        filtered.push(v.events)
+      })
+      
+    })
+    let flattened = filtered.flatMap((item)=> [...item])
+    console.log(flattened);
+
+    res.status(200).json(flattened);
   }
   

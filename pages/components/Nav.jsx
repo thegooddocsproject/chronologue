@@ -7,8 +7,8 @@ export default function Nav() {
     <nav className={style.nav}>
     <Image 
     src='/../public/GalaxyDoctopus.svg' 
-    width={12}
-    height={12}
+    width='12px'
+    height='12px'
     alt=''/>
     <p>chronologue</p>
     <ul className={style.list}>
