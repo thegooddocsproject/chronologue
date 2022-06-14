@@ -1,9 +1,17 @@
 import React from "react";
 import Layout from "./components/Layout";
 import Link from "next/link";
-
+import { useRouter } from 'next/router'
 import style from "./EventDetails.module.css";
 
+export async function getStaticPaths() {
+  return {
+    paths: [
+      { params: {event: 'america'} }
+    ],
+    fallback: true // false or 'blocking'
+  };
+}
 export async function getStaticProps() {
   /**
    * TODO: make URL query dynamic based on a state, or user clicks
@@ -24,6 +32,8 @@ export async function getStaticProps() {
 
 export default function EventDetails({ data }) {
   console.log(data);
+  const router = useRouter()
+  console.log(router.query)
   return (
     <Layout>
       <section className={style.eventContainer}>

@@ -24,7 +24,7 @@ export default function Nav() {
         </Link>
         </li>
       <li className={style.list_item}>
-        <Link href='/EventDetails'>
+        <Link href='/america'>
         Documentation
         </Link>
         </li>
