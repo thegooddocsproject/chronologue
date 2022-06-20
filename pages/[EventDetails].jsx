@@ -7,7 +7,7 @@ import style from "./EventDetails.module.css";
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: {event: 'america'} }
+      { params: {EventDetails: 'america'} }
     ],
     fallback: true // false or 'blocking'
   };
@@ -43,36 +43,36 @@ export default function EventDetails({ data }) {
         <input type="text" placeholder="Search" />
         <div className={style.eventContainer_flex}>
           <div>
-            <img src={data[0].image} alt="" />
-            <h2>{data[0].event ? data[0].event : "Event name here"}</h2>
-            <p>Date published {data[0].date ? data[0].date : "Unknown"}</p>
+            <img src={null} alt="" />
+            <h2>{null}</h2>
+            <p>Date published {null}</p>
             <h3>Continent</h3>
-            <p>{}</p>
+            <p>{null}</p>
           </div>
           <div>
             <h3>Related Events</h3>
             <div>
-              <img src={data[0].image} alt="" />
+              <img src={null} alt="" />
               <div></div>
             </div>
             <div>
-              <img src={data[0].image} alt="" />
+              <img src={null} alt="" />
               <div></div>
             </div>
             <div>
-              <img src={data[0].image} alt="" />
+              <img src={null} alt="" />
               <div></div>
             </div>
             <div>
-              <img src={data[0].image} alt="" />
+              <img src={null} alt="" />
               <div></div>
             </div>
             <div>
-              <img src={data[0].image} alt="" />
+              <img src={null} alt="" />
               <div></div>
             </div>
             <div>
-              <img src={data[0].image} alt="" />
+              <img src={null} alt="" />
               <div></div>
             </div>
           </div>
