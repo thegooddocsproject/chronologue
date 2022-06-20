@@ -33,7 +33,7 @@ export async function getStaticProps() {
 export default function EventDetails({ data }) {
   console.log(data);
   const router = useRouter()
-  console.log(router.query)
+  console.log(router)
   return (
     <Layout>
       <section className={style.eventContainer}>
@@ -44,10 +44,10 @@ export default function EventDetails({ data }) {
         <div className={style.eventContainer_flex}>
           <div>
             <img src={null} alt="" />
-            <h2>{null}</h2>
-            <p>Date published {null}</p>
+            <h2>{data[0].event}</h2>
+            <p>Date published: {data[0].date}</p>
             <h3>Continent</h3>
-            <p>{null}</p>
+            <p>{data[0].continent}</p>
           </div>
           <div>
             <h3>Related Events</h3>
