@@ -70,3 +70,25 @@ After a leading sentence on why/how they are valuable to readers of the current 
 
 * One list for a small number of items, which can contain internal and external references, or;
 * Two lists, divided into internal and external and separated by another leading sentence, if there are a larger number of items.
+
+06/29 Notes from meeting w/Tina:
+
+Name, org, purpose, coordinates (where telescope should point to) a link of how far it should go.
+
+Star Stories podcast on how stars are made and things like measurements in astronomy. Looking to make a form that replicates a research project.
+
+Data has to be useful for a certain audience. Justify research for wider breadth of ppl (~100 people)
+
+Implimentation: link in header.
+
+Describe prerqs: be part of an org of some kind; private company? Some sort of ethics statement. Are states able to use it?
+
+Submit. Goes to independent committee that reviews request and you'll be cued. Location, duration, points in time to gather data. "We can't grant you 2 years, but 2 weeks" There's only one teleascope, so you'll need to wait your turn.
+
+What kind of data? Ian collected a year, place, description, link (video). All in Ian's API: event, date, image...
+
+If you're a scientist, how do you retrieve data from API?
+
+Visuals: Diagram: steps in process. Reviewing loop.
+
+Divide this into several splits: requesting and retrieving, two how-to's; and a third portion for concept
