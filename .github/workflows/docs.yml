@@ -1,5 +1,9 @@
 name: Vale linter review
-on: [pull_request]
+on: 
+  pull_request:
+    branches: [ "docs" ]
+  push:
+    branches: [ "docs" ]
 
 jobs:
   vale:
