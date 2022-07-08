@@ -22,7 +22,7 @@ Space-time is when you combine the three spatial dimensions (3D) and time, resul
 
 ![Source: European Space Agency](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/09/spacetime_curvature/15576375-1-eng-GB/Spacetime_curvature_pillars.jpg)
 
-Large objects, like stars and planets, deform the space-time. This deformation is proportional to the size of the object with larger objects causing more deformation. The curvature of the space-time affects how fast time progresses, which is referred as _nonlinear_ time.
+Large objects, like stars and planets, deform spacetime. This deformation is proportional to the size of the object with larger objects causing more deformation. The curvature of spacetime affects how fast time progresses, which is referred to as _nonlinear_ time.
 
 You can observe this effect on earth as well: clocks on the mean sea level work at normal speed, whereas clocks on a plane at 10,000 km go a bit slower. 
 
