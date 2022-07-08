@@ -14,11 +14,11 @@ This document presents concepts you need to understand before using Chronologue.
 
 
 ## What is time? 
-Time is “a nonspatial continuum” [Merriam Webster](https://www.merriam-webster.com/dictionary/time). “Nonspatial” means that time has no size, nor can it be touched. However, time can be measured in increments of different sizes, such as seconds, minutes, hours, days. To visualize time, we can read a clock or look at a calendar. Different cultures use different calendars. The Chronologue telescope uses the [Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar).
+Time is “a non-spatial continuum” [Merriam Webster](https://www.merriam-webster.com/dictionary/time). “Nonspatial” means that time has no size, nor can it be touched. However, time can be measured in increments of different sizes, such as seconds, minutes, hours, days. To visualize time, we can read a clock or look at a calendar. Different cultures use different calendars. The Chronologue telescope uses the [Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar).
 
 
-## What is space-time?
-Space-time is when you combine the three spatial dimensions (3D) and time, resulting in a four-dimensional (4D) system. Since there is no exact visual representation of a 4D space, you will often see pictures like this to clarify the relationship between space and time:
+## What is spacetime?
+Spacetime is when you combine the three spatial dimensions (3D) and time, resulting in a four-dimensional (4D) system. Since there is no exact visual representation of a 4D space, you will often see pictures like this to clarify the relationship between space and time:
 
 ![Source: European Space Agency](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/09/spacetime_curvature/15576375-1-eng-GB/Spacetime_curvature_pillars.jpg)
 
@@ -50,7 +50,7 @@ The time-travel telescope is an upgraded, more complex telescope that lets you *
 ### How does the Chronologue time-travel telescope work?
 
 
-The time-travel telescope software manipulates space-time to create a path between to different points: your point in space-time and the desired point you want to look at. This path, or tunnel, is known as a [wormhole](https://en.wikipedia.org/wiki/Wormhole). A wormhole connects different places in space, different points in time, or both.
+The time-travel telescope software manipulates spacetime to create a path between to different points: your point in spacetime and the desired point you want to look at. This path, or tunnel, is known as a [wormhole](https://en.wikipedia.org/wiki/Wormhole). A wormhole connects different places in space, different points in time, or both.
 
 ![Source: American Physical Society](https://physics.aps.org/assets/3dbae5fd-a0e8-4b78-81be-b10bb92fe6f2/e40_2_medium.png)
 
