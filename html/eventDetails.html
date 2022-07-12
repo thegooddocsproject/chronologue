@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../styles/globals.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class='eventContainer'>
+        <a href="/ApiCall">
+          <p>Search Results</p>
+        </a>
+        <input type="text" placeholder="Search" />
+        <div class='eventContainer_flex'>
+          <div>
+            <img src='' alt="" />
+            <h2>{data[0].event}</h2>
+            <p>Date published: {data[0].date}</p>
+            <h3>Continent</h3>
+            <p>{data[0].continent}</p>
+          </div>
+          <div>
+            <h3>Related Events</h3>
+            <div>
+              <img src='' alt="" />
+              <div></div>
+            </div>
+            <div>
+              <img src='' alt="" />
+              <div></div>
+            </div>
+            <div>
+              <img src='' alt="" />
+              <div></div>
+            </div>
+            <div>
+              <img src='' alt="" />
+              <div></div>
+            </div>
+            <div>
+              <img src='' alt="" />
+              <div></div>
+            </div>
+            <div>
+              <img src='' alt="" />
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
