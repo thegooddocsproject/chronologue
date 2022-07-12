@@ -1,0 +1,75 @@
+.welcome{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.welcome_input{
+    border-color: #B5179E;
+    padding: 8px;
+}
+
+.welcome_button{
+    border: none;
+    background-color: #B5179E;
+    padding: 8px;
+    font-weight: 500;
+    color: white;
+}
+
+.welcome_inner{
+    margin: 20px;
+
+}
+
+.learn{
+    background-color: #560BAD;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.learn_button{
+    border-color: white;
+    border-width: 4px;
+    border-radius: 16px;
+    background-color: #560BAD;
+    padding: 8px 10px;
+    color: white;
+}
+
+.join{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.join_button{
+    border-color: none;
+    border-width: 4px;
+    border-radius: 16px;
+    background-color: skyblue;
+    padding: 8px 10px;
+    color: white;
+}
+
+.benefits{
+    background-color: #560BAD;
+    padding: 20px;
+    color: white;
+}
+
+.benefits_carousel{
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.benefits_carousel_item{
+    margin: 8px 10px;
+}

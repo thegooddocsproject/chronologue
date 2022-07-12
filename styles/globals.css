@@ -3,7 +3,10 @@
 @import './ApiCall.css';
 @import './Community.css';
 @import './EventDetails.css';
-
+@import './Banner.css';
+@import './Nav.css';
+@import './Header.css';
+@import './Footer.css';
 
 html,
 body {

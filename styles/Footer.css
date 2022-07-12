@@ -1,0 +1,25 @@
+.footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.footer_flex{
+    display: flex;
+    flex-direction: row wrap;
+    
+}
+
+.bar{
+    color: purple;
+}
+
+.list{
+    display: flex;
+    flex-direction:  row wrap;
+    list-style: none;
+}
+
+.list_item{
+    padding: 0px 8px;
+}

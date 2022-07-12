@@ -1,0 +1,17 @@
+.nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.list{
+    display: flex;
+    flex-direction:  row wrap;
+    list-style: none;
+}
+
+.list_item{
+    padding: 0px 8px;
+}
