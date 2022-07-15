@@ -1,11 +1,10 @@
 import Layout from "./components/Layout";
 import style from './ApiCall.module.css';
+import Link from 'next/link';
 
 export async function getStaticProps() {
-  const res = await fetch("https://chronologue.netlify.app/api/all");
+  const res = await fetch("http://localhost:3000/api/all");
   const posts = await res.json();
-
-  await console.log(posts);
 
   let data = posts;
 
@@ -26,6 +25,9 @@ export async function getStaticProps() {
  * API req caching for performance?
  */
 export default function ApiCall({ data }) {
+  function reRoute(params) {
+    console.log('rerouted to event details page, fetched the right api end point based on entry')
+  }
   return (
     <Layout>
       <section className={style.section}>
@@ -39,11 +41,20 @@ export default function ApiCall({ data }) {
 
           {data.map((item, index) => {
             return (
-              <tr key={index}>
+              // <Link href='EventDetails' key={index}>
+              // <tr >
+              //   <td>{item.event}</td>
+              //   <td>{item.continent}</td>
+              //   <td>{item.date}</td>
+              // </tr>
+              // </Link>
+              <div onClick={()=> reRoute()} key={index}>
+              <tr >
                 <td>{item.event}</td>
                 <td>{item.continent}</td>
                 <td>{item.date}</td>
               </tr>
+              </div>
             );
           })}
         </table>
