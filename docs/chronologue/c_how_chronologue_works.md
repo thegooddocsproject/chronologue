@@ -46,6 +46,8 @@ You’re at home watching the football world cup via an internet stream and you 
 
 The time-travel telescope is an upgraded, more complex telescope that lets you **look** at the past, the present, and also the future. Moreover, the Chronologue time-travel telescope gives you access to any location in the universe. 
 
+> ⚠️ Note: While Chronologue tries to predict the future as accurately as possible, there is no guarantee that the recording matches with the actual events 100%.
+
 
 ### How does the Chronologue time-travel telescope work?
 
