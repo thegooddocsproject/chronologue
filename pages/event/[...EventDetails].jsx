@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "./components/Layout";
+import Layout from "../components/Layout";
 import Link from "next/link";
 import { useRouter } from 'next/router'
 import style from "./EventDetails.module.css";
@@ -7,34 +7,35 @@ import style from "./EventDetails.module.css";
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: {EventDetails: 'america'} }
+      { params: {EventDetails: ['north-america','1990']} }
     ],
     fallback: true // false or 'blocking'
   };
 }
-export async function getStaticProps(props) {
+export async function getStaticProps(context) {
   /**
    * TODO: make URL query dynamic based on a state, or user clicks
    * Include Year + Continent keys in the server data route?
    */
   const res = await fetch(
-    "http://localhost:3000/api/year/1957/location/europe" + params
+    `http://localhost:3000/api/year/${context.params.EventDetails.pop()}/location/${context.params.EventDetails[0]}`
   );
   const data = await res.json();
-  console.log(props)
+  
+  console.log(context)
 
 
   return {
     props: {
-      data,
+      data
     },
   };
 }
 
 export default function EventDetails({ data }) {
-  // console.log(data);
+  console.log(data);
   const router = useRouter()
-  console.log(router)
+  // console.log(router)
   return (
     <Layout>
       <section className={style.eventContainer}>

@@ -29,6 +29,8 @@ export default function ApiCall({ data }) {
     console.log('rerouted to event details page, fetched the right api end point based on entry')
     Router.push()
   }
+
+  let onlyYear = data.map((x)=> new Date(x.date).getFullYear)
   return (
     <Layout>
       <section className={style.section}>
@@ -58,7 +60,7 @@ export default function ApiCall({ data }) {
               // </tr>
               // </div>
 
-              <Link href={item.continent} key={index}>
+              <Link href={`/event/${item.continent}/${new Date(item.date).getFullYear()}`} key={index}>
               <tr>
                 <td>{item.event}</td>
                 <td>{item.continent}</td>
