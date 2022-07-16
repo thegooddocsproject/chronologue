@@ -12,15 +12,17 @@ export async function getStaticPaths() {
     fallback: true // false or 'blocking'
   };
 }
-export async function getStaticProps() {
+export async function getStaticProps(props) {
   /**
    * TODO: make URL query dynamic based on a state, or user clicks
    * Include Year + Continent keys in the server data route?
    */
   const res = await fetch(
-    "http://localhost:3000/api/year/1957/location/europe"
+    "http://localhost:3000/api/year/1957/location/europe" + params
   );
   const data = await res.json();
+  console.log(props)
+
 
   return {
     props: {
@@ -30,7 +32,7 @@ export async function getStaticProps() {
 }
 
 export default function EventDetails({ data }) {
-  console.log(data);
+  // console.log(data);
   const router = useRouter()
   console.log(router)
   return (

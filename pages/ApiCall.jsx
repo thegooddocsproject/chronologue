@@ -27,6 +27,7 @@ export async function getStaticProps() {
 export default function ApiCall({ data }) {
   function reRoute(params) {
     console.log('rerouted to event details page, fetched the right api end point based on entry')
+    Router.push()
   }
   return (
     <Layout>
@@ -48,13 +49,22 @@ export default function ApiCall({ data }) {
               //   <td>{item.date}</td>
               // </tr>
               // </Link>
-              <div onClick={()=> reRoute()} key={index}>
-              <tr >
+
+              // <div onClick={()=> reRoute()} key={index}>
+              // <tr >
+              //   <td>{item.event}</td>
+              //   <td>{item.continent}</td>
+              //   <td>{item.date}</td>
+              // </tr>
+              // </div>
+
+              <Link href={item.continent} key={index}>
+              <tr>
                 <td>{item.event}</td>
                 <td>{item.continent}</td>
                 <td>{item.date}</td>
               </tr>
-              </div>
+              </Link>
             );
           })}
         </table>
