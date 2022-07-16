@@ -13,9 +13,21 @@ jsonDat.forEach((entry) => {
 });
 });
 
-let flat = newArr.flat()
+// console.log(newArr)
 
+let mergArr =[];
 let mergObj;
 
+newArr.forEach((i)=> {
+    mergObj = {...i[0],...i[1]}
+    mergArr.push(mergObj)
+})
 
-console.log(flat);
+
+for (let index = 0; index < mergArr.length; index++) {
+    delete mergArr[index]['events']
+    
+}
+console.log(mergArr)
+
+let flat = newArr.flat()
