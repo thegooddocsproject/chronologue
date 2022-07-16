@@ -2,7 +2,7 @@
 title: How Chronologue works
 sidebar_label: How Chronologue works
 sidebar_position: 20
-draft: true
+draft: false
 ---
 
 <!-- ## Overview --> 
