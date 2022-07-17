@@ -26,8 +26,11 @@ newArr.forEach((i)=> {
 
 for (let index = 0; index < mergArr.length; index++) {
     delete mergArr[index]['events']
-    
 }
+    
 console.log(mergArr)
+
+fs.writeFile('flat-data.json',JSON.stringify(mergArr),(err)=> console.error(err))
+
 
 let flat = newArr.flat()
