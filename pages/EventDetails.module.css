@@ -1,9 +1,0 @@
-.eventContainer{
-    background-color: black;
-    color: white;
-}
-
-.eventContainer_flex{
-    display: flex;
-    flex-direction: row wrap;
-}
