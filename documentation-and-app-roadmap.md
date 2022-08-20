@@ -32,15 +32,16 @@ Use cases are we supporting:
 |---|---|---|---|---|----|
 |Getting started with Chronologue  | Getting started  | [Quickstart](https://github.com/thegooddocsproject/templates/tree/dev/quickstarts)  | Explains how to find an event and view it.  | End users  | Tina
 |How Chronologue works  |Concept   | [Explanation](https://github.com/thegooddocsproject/templates/tree/dev/explanation)  | Explains scientific background. [Written down here](https://github.com/thegooddocsproject/chronologue/wiki/Technology-of-the-Chronologue-telescope-explained)  This is a preliminary draft, will evolve with "Parts of the time travel telescope".  | Scientist | Tina (draft), Valeria (review)|
+| The recording process explained  |  Concept | [Explanation](https://github.com/thegooddocsproject/templates/tree/dev/explanation)  | Scientist  | Explains who is involved in the decision making process to grant permission to the Chronologue telescope. |  Peter |
 |  How Chronologue API works | Concept  | [API Overview](https://github.com/thegooddocsproject/templates/tree/dev/api-overview)  |Explains the architecture of the API on a higher level   | Scientist, Developer  | Valeria|
 | Parts of the Chronologue Time Travel Telescope  |  Concept |  [Explanation](https://github.com/thegooddocsproject/templates/tree/dev/explanation)  | Explains the parts that the telescope is made of. | Technicians  |Ricky, Serena for Graphics|
 | Requesting a new recording | How-to  | [How-to](https://github.com/thegooddocsproject/templates/tree/dev/how-to) | Explains how to submit a new request for time-travel. |Scientist   |Peter|
 | Adding new entries to the Chronologue catalog  | How-to   |  [API quickstart](https://github.com/thegooddocsproject/templates/tree/dev/api-quickstart) |  Explains how a developer uses a POST request to add more information | Developer  |Tina|
-| Chronologue API reference  |API reference   |  [API reference](https://github.com/thegooddocsproject/templates/tree/dev/api-reference) ! Probably updated soon | List of all endpoints.  | Developers  |Tina|
+| Chronologue API reference  |API reference   |  [API reference](https://github.com/thegooddocsproject/templates/tree/dev/api-reference) ! Probably updated soon | List of all endpoints.  | Developers  |Sakura and Valeria, SME: Ian|
 | Bug reporting |How-to  |  [How-to](https://github.com/thegooddocsproject/templates/tree/dev/how-to) | Explains how to report API bugs and other issues with the Chronologue wenbsite.  | Developers  |Tina|
 | Troubleshooting Framework  |Troubleshooting   |  ? | General steps to prepare for a troubleshooting task.| Technicians  |Ricky|
 | Troubleshooting defect XYZ  |Troubleshooting   |  ? | This would go in greather depth than the general troubleshooting topic. What could we "break" that would need troubleshooting?  | Technicians  |?|
-|Glossary   | Glossary  | ?  | Explains terminology used in this project  | End users, Scientists, Technicians  |Tina|
+|Glossary   | Glossary  | ?  | Explains terminology used in this project  | End users, Scientists, Technicians  |Sakura & Tina|
 | Release Notes  | Changelog   |  ? | Describes which features we introduced and why or what features we deprecated  |  Developers |Tina/ Ian|
 
 <!-- 
