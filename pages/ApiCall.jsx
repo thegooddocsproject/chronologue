@@ -60,13 +60,21 @@ export default function ApiCall({ data }) {
               // </tr>
               // </div>
 
-              <Link href={`/event/${item.continent}/${new Date(item.date).getFullYear()}`} key={index}>
-              <tr>
-                <td>{item.event}</td>
-                <td>{item.continent}</td>
-                <td>{item.date}</td>
+              <tr key={index}>
+                <td>
+                  <Link 
+                href={`/event/${item.continent}/${new Date(item.date).getFullYear()}`} 
+                >
+                  {item.event}
+                  </Link>
+                  </td>
+                <td>
+                  {item.continent}
+                </td>
+                <td>
+                  {item.date}
+                  </td>
               </tr>
-              </Link>
             );
           })}
         </table>
