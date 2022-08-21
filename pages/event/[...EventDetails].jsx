@@ -8,15 +8,14 @@ export async function getStaticPaths() {
   // fetch all api data => map only continent as paths and return them in this func
   let getContinents = await fetch('https://chronologue.netlify.app/api/all')
   let jsonData = await getContinents.json()
-  let mapPaths = jsonData.map((p) => {return {params: {id: p.continent}}})
+  let mapPaths = jsonData.map((p) => {
+    return {
+      params: {EventDetails: ['event' + '/' + p.continent + '/' + new Date(p.date).getFullYear()]}
+    }
+  })
+  console.log(mapPaths)
   return {
-    paths: [
-      { params: 
-        {
-          EventDetails: ['north-america','europe','australia','asia']
-        } 
-      }
-    ],
+    paths: mapPaths,
     fallback: true // false or 'blocking'
   };
 }
