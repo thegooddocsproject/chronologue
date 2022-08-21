@@ -5,6 +5,9 @@ import { useRouter } from 'next/router'
 import style from "./EventDetails.module.css";
 
 export async function getStaticPaths() {
+  // fetch all api data => map only continent as paths and return them in this func
+  let getContinents = await fetch('http://localhost:3000/api/all').json()
+  let mapPaths = getContinents.map((p) => {return {params: {id: p.continent}}})
   return {
     paths: [
       { params: 
