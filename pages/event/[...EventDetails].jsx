@@ -6,7 +6,7 @@ import style from "./EventDetails.module.css";
 
 export async function getStaticPaths() {
   // fetch all api data => map only continent as paths and return them in this func
-  let getContinents = await fetch('http://localhost:3000/api/all')
+  let getContinents = await fetch('https://chronologue.netlify.app/api/all')
   let jsonData = await getContinents.json()
   let mapPaths = jsonData.map((p) => {return {params: {id: p.continent}}})
   return {
@@ -29,7 +29,7 @@ export async function getStaticProps(context) {
   console.log(context)
 
   const res = await fetch(
-    `http://localhost:3000/api/year/${context.params.EventDetails.pop()}/location/${context.params.EventDetails[0]}`
+    `https://chronologue.netlify.app/api/year/${context.params.EventDetails.pop()}/location/${context.params.EventDetails[0]}`
   );
   const data = await res.json();
   
