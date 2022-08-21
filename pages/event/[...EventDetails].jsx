@@ -6,8 +6,9 @@ import style from "./EventDetails.module.css";
 
 export async function getStaticPaths() {
   // fetch all api data => map only continent as paths and return them in this func
-  let getContinents = await fetch('http://localhost:3000/api/all').json()
-  let mapPaths = getContinents.map((p) => {return {params: {id: p.continent}}})
+  let getContinents = await fetch('http://localhost:3000/api/all')
+  let jsonData = await getContinents.json()
+  let mapPaths = jsonData.map((p) => {return {params: {id: p.continent}}})
   return {
     paths: [
       { params: 

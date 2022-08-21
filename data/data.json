@@ -92,7 +92,7 @@
                 "events": [
                     {
                         "event": "European Southern Observatory (ESO) find Proxima b in habitable zone around Proxima Centauri. The long-sought world orbits its cool red parent star every 11 days and has a temperature suitable for liquid water to exist on its surface. ",
-                        "date": "2016",
+                        "date": "2016-03-03",
                         "image": "https://cdn.eso.org/images/newsfeature/eso1629a.jpg",
                         "video": "link",
                         "links": [
@@ -133,7 +133,7 @@
                 "events": [
                     {
                         "event": "NASA Artemis mission sending the first woman and man to the Moon by 2024",
-                        "date": "2024",
+                        "date": "2024-06-07",
                         "image": "https://blogs.nasa.gov/artemis/wp-content/uploads/sites/303/2021/10/OrionStacked.jpg",
                         "video": "link",
                         "links": [
@@ -154,7 +154,7 @@
                 "events": [
                     {
                         "event": "Light pollution in Europe is so bad, that you can not see stars with the naked eye any more.",
-                        "date": "3000",
+                        "date": "3000-02-08",
                         "image": "https://www.darksky.org/wp-content/uploads/2014/09/Light_Pollution_Diagram_680px.jpg",
                         "video": "https://www.youtube.com/watch?v=isoJ0XIKDlc",
                         "links": [
