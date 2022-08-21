@@ -30,7 +30,8 @@ export default function ApiCall({ data }) {
     Router.push()
   }
 
-  let onlyYear = data.map((x)=> new Date(x.date).getFullYear)
+  let onlyYear = data.map((x)=> new Date(x.date).getFullYear())
+  console.log(onlyYear)
   return (
     <Layout>
       <section className={style.section}>
@@ -44,24 +45,9 @@ export default function ApiCall({ data }) {
 
           {data.map((item, index) => {
             return (
-              // <Link href='EventDetails' key={index}>
-              // <tr >
-              //   <td>{item.event}</td>
-              //   <td>{item.continent}</td>
-              //   <td>{item.date}</td>
-              // </tr>
-              // </Link>
-
-              // <div onClick={()=> reRoute()} key={index}>
-              // <tr >
-              //   <td>{item.event}</td>
-              //   <td>{item.continent}</td>
-              //   <td>{item.date}</td>
-              // </tr>
-              // </div>
-
               <tr key={index}>
                 <td>
+                  {/* one of the year date parsing is set 1 year backward. Ex: 2024 -> 2023, 2016->2015, 3000->2999,. Not sure why and idk if i can rely on JS date parsing functions, might just need the raw year from API > use 3rd paty lib date/time lib?*/}
                   <Link 
                 href={`/event/${item.continent}/${new Date(item.date).getFullYear()}`} 
                 >

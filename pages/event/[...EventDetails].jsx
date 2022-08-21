@@ -7,22 +7,28 @@ import style from "./EventDetails.module.css";
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: {EventDetails: ['north-america','1990']} }
+      { params: 
+        {
+          EventDetails: ['north-america','europe','australia','asia']
+        } 
+      }
     ],
     fallback: true // false or 'blocking'
   };
 }
+
 export async function getStaticProps(context) {
   /**
    * TODO: make URL query dynamic based on a state, or user clicks
    * Include Year + Continent keys in the server data route?
    */
+  console.log(context)
+
   const res = await fetch(
     `http://localhost:3000/api/year/${context.params.EventDetails.pop()}/location/${context.params.EventDetails[0]}`
   );
   const data = await res.json();
   
-  console.log(context)
 
 
   return {
@@ -39,10 +45,13 @@ export default function EventDetails({ data }) {
   return (
     <Layout>
       <section className={style.eventContainer}>
-        <Link href="/ApiCall">
-          <p>Search Results</p>
+
+        <Link href="/ApiCall" passHref>
+          <a>Search Results</a>
         </Link>
+
         <input type="text" placeholder="Search" />
+
         <div className={style.eventContainer_flex}>
           <div>
             <img src={null} alt="" />
