@@ -4,9 +4,12 @@ import Link from "next/link";
 import { useRouter } from 'next/router'
 import style from "./EventDetails.module.css";
 
+let url = 'http://localhost:3000'
+let netlifyUrl = 'https://chronologue.netlify.app'
+
 export async function getStaticPaths() {
   // fetch all api data => map only continent as paths and return them in this func
-  let getContinents = await fetch('https://chronologue.netlify.app/api/all')
+  let getContinents = await fetch(`${url}/api/all`)
   let jsonData = await getContinents.json()
   let mapPaths = jsonData.map((p) => {
     return {
@@ -28,7 +31,7 @@ export async function getStaticProps(context) {
   console.log(context)
 
   const res = await fetch(
-    `https://chronologue.netlify.app/api/year/${context.params.EventDetails.pop()}/location/${context.params.EventDetails[0]}`
+    `${url}/api/year/${context.params.EventDetails.pop()}/location/${context.params.EventDetails[0]}`
   );
   const data = await res.json();
   

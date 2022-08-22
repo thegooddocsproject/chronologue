@@ -2,11 +2,12 @@ import Layout from "./components/Layout";
 import style from './ApiCall.module.css';
 import Link from 'next/link';
 
-export async function getStaticProps() {
-  const res = await fetch("https://chronologue.netlify.app/api/all");
-  const posts = await res.json();
+let netlifyUrl = 'https://chronologue.netlify.app'
+let url = 'http://localhost:3000'
 
-  let data = posts;
+export async function getStaticProps() {
+  const res = await fetch(`${url}/api/all`);
+  const data = await res.json();
 
   return {
     props: {
