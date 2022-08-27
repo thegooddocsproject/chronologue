@@ -9,7 +9,7 @@ let netlifyUrl = 'https://chronologue.netlify.app'
 
 export async function getStaticPaths() {
   // fetch all api data => map only continent as paths and return them in this func
-  let getContinents = await fetch(`${url}/api/all`)
+  let getContinents = await fetch(`${netlifyUrl}/api/all`)
   let jsonData = await getContinents.json()
   let mapPaths = jsonData.map((p) => {
     return {
