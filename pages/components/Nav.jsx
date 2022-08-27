@@ -24,7 +24,7 @@ export default function Nav() {
         </Link>
         </li>
       <li className={style.list_item}>
-        <Link href='/america'>
+        <Link href='https://docs-chronologue.netlify.app'>
         Documentation
         </Link>
         </li>
