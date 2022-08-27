@@ -1,8 +1,11 @@
 # Chronologue documentation
 
 This branch contains the Chronologue documentation. 
-To document Chronologue, we use the static site generator [docusaurus](https://docusaurus.io/). 
-We chose docusaurus for its ability to be highly customized since we want to provide additional commentary to **what** is good about the documentation. 
+To document Chronologue, we use the static site generator [Hugo](https://gohugo.io/) along with the [Tufte theme](https://themes.gohugo.io/themes/hugo-tufte/). 
+We chose Hugo to comply with the standard tech stack in the Good Docs project. It is relatively easy to learn and has a large community. 
+Tufte was a good fit for our needs, since it allows adding comments next to the content. We want to showcase good docs and explain what makes them great.
+
+
 
 ## Directory structure in a nutshell
 ```
