@@ -6,7 +6,7 @@ let netlifyUrl = 'https://chronologue.netlify.app'
 let url = 'http://localhost:3000'
 
 export async function getStaticProps() {
-  const res = await fetch(`${url}/api/all`);
+  const res = await fetch(`${netlifyUrl}/api/all`);
   const data = await res.json();
 
   return {
