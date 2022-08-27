@@ -31,11 +31,11 @@ export async function getStaticProps(context) {
   console.log(context)
 
   const res = await fetch(
-    `${url}/api/year/${context.params.EventDetails.pop()}/location/${context.params.EventDetails[0]}`
+    `${netlifyUrl}/api/year/${context.params.EventDetails.pop()}/location/${context.params.EventDetails[0]}`
   );
   const data = await res.json();
   
-
+    console.log(data)
 
   return {
     props: {
@@ -61,10 +61,10 @@ export default function EventDetails({ data }) {
         <div className={style.eventContainer_flex}>
           <div>
             <img src={null} alt="" />
-            <h2>{data[0].event}</h2>
-            <p>Date published: {data[0].date}</p>
+            {/* <h2>{data[0].event}</h2> */}
+            {/* <p>Date published: {data[0].date}</p> */}
             <h3>Continent</h3>
-            <p>{data[0].continent}</p>
+            {/* <p>{data[0].continent}</p> */}
           </div>
           <div>
             <h3>Related Events</h3>
