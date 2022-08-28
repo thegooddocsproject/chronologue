@@ -36,6 +36,12 @@ publishDate = 'publishDate'
 # Footer menu 
 # -----------------------------------------------------------------------
 [[menu.footer]]
+  name = "About the Good Docs Project"
+  pre = "<i class='fa fa-paper-plane fa-2x'></i> "
+  weight = -110 
+  identifier = "website"
+  url = "https://thegooddocsproject.dev/"
+[[menu.footer]]
   name = ""
   pre = "<i class='fa fa-github fa-2x'></i> "
   weight = -100 
