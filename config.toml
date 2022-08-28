@@ -5,6 +5,11 @@ description = 'Documentation that showcases good documentation!'
 lastmod = ':git'
 publishDate = 'publishDate'
 
+[params]
+  subtitle = "Documentation that showcases good documentation!"
+  copyrightHolder = "The Good Docs Project"
+  showPoweredBy = true
+
 # -----------------------------------------------------------------------
 # Navigation menu 
 # -----------------------------------------------------------------------
