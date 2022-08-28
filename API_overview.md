@@ -18,7 +18,10 @@ To learn more, join our [Slack community](https://thegooddocs.slack.com/) or att
 ## Main features
 <br>
 
-Besides querying and visualizing past astronomical events, you can also use the Chronologue telescope to predict future events, but the accuracy of these predictions is not guaranteed. If an event has not yet been stored in the API, you can also request to post a new event. 
+The Chronologue time travel telescope records astronomical events of the past and future. It stores the events in the [data.json](https://github.com/thegooddocsproject/chronologue/blob/main/data/data.json) file as event objects. You can use the Chronologue API to query exisiting astronomical events from the `data.json file`. 
+If you want to retrieve data for an event that does not yet exist, you need to request a new recording. 
+
+> Note: The Chronologue telescope predicts future events, but the accuracy of these predictions is not guaranteed. 
 
 To use the Chronologue API, read and follow the steps described in the "Request for a new recording" document. If your request is approved, you will receive a notification email containing an API Key that gives you access to the Chronologue's API. 
 
