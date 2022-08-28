@@ -1,6 +1,5 @@
 ---
 title: Chronologue API documentation
-sidebar_label: API documentation
 ---
 
 Welcome page.

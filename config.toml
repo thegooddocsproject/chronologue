@@ -1,5 +1,44 @@
 baseURL = 'https://24-hugo--docs-chronologue.netlify.app/'
 languageCode = 'en-us'
 title = 'Chronologue Documentation'
+description = 'Documentation that showcases good documentation!'
 lastmod = ':git'
 publishDate = 'publishDate'
+
+# -----------------------------------------------------------------------
+# Navigation menu 
+# -----------------------------------------------------------------------
+[[menu.nav]]
+  name = "Home"
+  pre = "<i class='fa fa-home fa-lg'></i> "
+  weight = -110 
+  identifier = "home"
+  url = "/"
+[[menu.nav]]
+  name = "API Documentation"
+  pre = "<i class='fa fa-book fa-lg'></i> "
+  weight = -100 
+#  identifier = "posts"
+  url = "/docs/API"
+[[menu.nav]]
+  name = "Chronologue Docs"
+  pre = "<i class='fa fa-book fa-lg'></i> "
+  weight = -90 
+#  identifier = "categories"
+  url = "/docs"
+
+# -----------------------------------------------------------------------
+# Footer menu 
+# -----------------------------------------------------------------------
+[[menu.footer]]
+  name = ""
+  pre = "<i class='fa fa-github fa-2x'></i> "
+  weight = -100 
+  identifier = "github"
+  url = "https://github.com/thegooddocsproject/chronologue"
+[[menu.footer]]
+  name = ""
+  pre = "<i class='fa fa-twitter fa-2x'></i> "
+  weight = -90 
+  identifier = "twitter"
+  url = "https://twitter.com/thegooddocs"

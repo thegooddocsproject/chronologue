@@ -2,7 +2,7 @@
 title: How the Chronologue API works
 sidebar_label: API overview
 sidebar_position: 1
-draft: true
+draft: false
 ---
 > Writing for developers that want to get acquainted with the API on a high level. I use the guidance from [about-overview.md](https://github.com/thegooddocsproject/templates/blob/dev/api-overview/about-overview.md) since there was no template in the repo. 
 

@@ -3,6 +3,20 @@
 <div id="layout" class="pure-g">
 <article class="pure-u-1">
 {{ partial "brand.html" . }}
+<div>
+  <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+  {{.Content}}
+</div>
+{{ partial "footer.html" . }}
+</article>
+</div>
+</body>
+</html>
+
+
+<!--Code Graveyard
+
+  Includes a preview of 5 pages
 {{ range first 5 .Site.Pages }}
   {{ partial "content.header.html" . }}
   <p>{{ .Summary }}</p>
@@ -10,8 +24,4 @@
   <p><a href="{{ .RelPermalink  }}">Read On &rarr;</a></p>
   {{ end  }}
 {{ end  }}
-{{ partial "footer.html" . }}
-</article>
-</div>
-</body>
-</html>
+-->
