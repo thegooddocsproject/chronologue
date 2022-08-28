@@ -9,7 +9,7 @@ export default async (req, res) => {
   
   const locationEventData = extract.map((n) => {
     return {
-      eventName: n.event,
+          eventName: n.event,
           dateName: formatDateToISOString(n.date),
           imageName: n.image,
           videoName: n.video,

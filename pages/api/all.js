@@ -19,7 +19,7 @@ const {
       
     })
     let flattened = filtered.flatMap((item)=> [...item])
-    console.log(flattened);
+    // console.log(flattened);
 
     res.status(200).json(flattened);
   }
