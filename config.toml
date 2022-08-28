@@ -1,3 +1,5 @@
-baseURL = 'https://docs-chronologue.netlify.app'
+baseURL = 'https://24-hugo--docs-chronologue.netlify.app/'
 languageCode = 'en-us'
 title = 'Chronologue Documentation'
+lastmod = ':git'
+publishDate = 'publishDate'
