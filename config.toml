@@ -1,4 +1,3 @@
 baseURL = 'https://docs-chronologue.netlify.app'
 languageCode = 'en-us'
 title = 'Chronologue Documentation'
-theme = "tufte"
