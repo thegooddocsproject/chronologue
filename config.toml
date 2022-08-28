@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://docs-chronologue.netlify.app'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Chronologue Documentation'
 theme = "tufte"
