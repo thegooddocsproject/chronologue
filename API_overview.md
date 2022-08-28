@@ -51,6 +51,6 @@ Use the Chronologue API to test your hypothesis. The Chronologue API can make pr
 
 <br>
 
-#### Educational purposes
+### Educational purposes
 
 Demonstrate to your audience the causal relationship between two natural events. For example, you can show your students the asteroid's impact on Earth during the Cretaceous Period that caused the mass extinction of three-quarters of plant and animal species. 
