@@ -43,7 +43,7 @@ A high-level diagram of the Chronologue API's workflow.
 ## Common use cases
 <br>
 
-#### Academic research 
+### Academic research 
 
 Gather information with the Chronologue API to further humanity's understanding. You can visualize past events that can help you explain what circumstances caused a another phenomenon of nature. 
  
