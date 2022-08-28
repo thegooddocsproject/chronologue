@@ -1,7 +1,6 @@
 import Layout from "./components/Layout";
 import style from "./ApiCall.module.css";
 import Link from "next/link";
-import Table from "react-bootstrap/Table";
 
 /**
  * NOTE: Netlify API is showing old API data which will lead to some page crashes due to invalid routes and data. Need to sync it with localhost
@@ -45,11 +44,8 @@ export default function ApiCall({ data }) {
         <input type="text" placeholder="Search" />
         <p>All listed results</p>
 
-        <Table
-          striped
-          bordered
-          hover
-          // className={style.table}
+        <table
+          className={style.table}
         >
           <thead>
             <tr>
@@ -78,7 +74,7 @@ export default function ApiCall({ data }) {
               );
             })}
           </tbody>
-        </Table>
+        </table>
       </section>
     </Layout>
   );
