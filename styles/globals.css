@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap');
 
-@import './ApiCall.css';
-@import './Community.css';
-@import './EventDetails.css';
-@import './Banner.css';
-@import './Nav.css';
-@import './Header.css';
-@import './Footer.css';
-
 html,
 body {
   padding: 0;
@@ -20,18 +12,209 @@ a {
   text-decoration: none;
 }
 
-h1{
+h1 {
   font-size: 34px;
 }
 
-h2{
+h2 {
   font-size: 28px;
 }
 
-p{
+p {
   font-size: 20px;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.section {
+  background: black;
+  color: white;
+}
+
+.table {
+  border: 2px white;
+  padding: 20px 50px;
+  width: 70%;
+}
+
+.banner {
+  background-color: #B5179E;
+  padding: 2px 8px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+.intro {
+  background-color: purple;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.intro_button {
+  background-color: skyblue;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.work {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.work_flex {
+  display: flex;
+  flex-direction: row wrap;
+  margin: 10px;
+}
+
+.contribute {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.contribute_title {
+  text-align: center;
+}
+
+.contribute_flex {
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.eventContainer {
+  background-color: black;
+  color: white;
+}
+
+.eventContainer_flex {
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.footer_flex {
+  display: flex;
+  flex-direction: row wrap;
+
+}
+
+.bar {
+  color: purple;
+}
+
+.list {
+  display: flex;
+  flex-direction: row wrap;
+  list-style: none;
+}
+
+.list_item {
+  padding: 0px 8px;
+}
+
+.welcome {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.welcome_input {
+  border-color: #B5179E;
+  padding: 8px;
+}
+
+.welcome_button {
+  border: none;
+  background-color: #B5179E;
+  padding: 8px;
+  font-weight: 500;
+  color: white;
+}
+
+.welcome_inner {
+  margin: 20px;
+
+}
+
+.learn {
+  background-color: #560BAD;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+.learn_button {
+  border-color: white;
+  border-width: 4px;
+  border-radius: 16px;
+  background-color: #560BAD;
+  padding: 8px 10px;
+  color: white;
+}
+
+.join {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.join_button {
+  border-color: none;
+  border-width: 4px;
+  border-radius: 16px;
+  background-color: skyblue;
+  padding: 8px 10px;
+  color: white;
+}
+
+.benefits {
+  background-color: #560BAD;
+  padding: 20px;
+  color: white;
+}
+
+.benefits_carousel {
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.benefits_carousel_item {
+  margin: 8px 10px;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.list {
+  display: flex;
+  flex-direction: row wrap;
+  list-style: none;
+}
+
+.list_item {
+  padding: 0px 8px;
 }
