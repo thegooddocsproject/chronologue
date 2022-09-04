@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap');
 
-html,
-body {
+html,body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -22,6 +21,7 @@ h2 {
 
 p {
   font-size: 20px;
+  font-weight: lighter;
 }
 
 * {
@@ -47,47 +47,6 @@ p {
   font-weight: 500;
 }
 
-.intro {
-  background-color: purple;
-  text-align: center;
-  color: white;
-  padding: 20px;
-}
-
-.intro_button {
-  background-color: skyblue;
-  border: none;
-  border-radius: 8px;
-  padding: 8px;
-}
-
-.work {
-  background-color: black;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-.work_flex {
-  display: flex;
-  flex-direction: row wrap;
-  margin: 10px;
-}
-
-.contribute {
-  background-color: black;
-  color: white;
-  padding: 20px;
-}
-
-.contribute_title {
-  text-align: center;
-}
-
-.contribute_flex {
-  display: flex;
-  flex-direction: row wrap;
-}
 
 .eventContainer {
   background-color: black;
