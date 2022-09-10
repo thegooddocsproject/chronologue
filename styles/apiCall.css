@@ -1,11 +1,42 @@
-input{
+section.section_table {
+    
+}
+
+input {
     border-color: purple;
     border-style: solid;
+    color: white;
     background-color: black;
     padding: 8px;
     margin: 16px 16px;
 }
 
-table{
-    
+table.table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100vw;
+    border: 3px solid white;
+    margin: 16px;
+}
+
+thead {
+    border: 2px solid white;
+    background-color: #1C212D;
+    border-left-color: white;
+}
+
+tr,td {
+    padding: 4px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: 3px solid #B035FF;
+    border-radius: 8px;
+}
+
+button:active {
+    background-color: #B035FF;
 }

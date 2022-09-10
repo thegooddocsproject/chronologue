@@ -4,6 +4,8 @@ html,body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: #090B16;
+  color: white;
 }
 
 a {
@@ -28,16 +30,6 @@ p {
   box-sizing: border-box;
 }
 
-.section {
-  background: black;
-  color: white;
-}
-
-.table {
-  border: 2px white;
-  padding: 20px 50px;
-  width: 70%;
-}
 
 .banner {
   background-color: #B5179E;

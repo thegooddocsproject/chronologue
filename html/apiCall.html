@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- common component  -->
     <nav class="nav">
         <img src='./../public/GalaxyDoctopus.svg' width='50px' height='50px' alt='' />
         <p>chronologue</p>
@@ -45,7 +46,8 @@
             Docs community!
         </p>
     </div>
-    <section class='section'>
+    <!-- end of common component -->
+    <section class='section_table'>
         <input type="text" placeholder="Search" />
         <table class='table'>
             <thead>
@@ -58,11 +60,17 @@
             <tbody>
                 <tr>
                     <td>{item.event}</td>
-                </tr>
-                <tr>
                     <td>{item.continent}</td>
+                    <td>{item.date}</td>
                 </tr>
                 <tr>
+                    <td>{item.event}</td>
+                    <td>{item.continent}</td>
+                    <td>{item.date}</td>
+                </tr>
+                <tr>
+                    <td>{item.event}</td>
+                    <td>{item.continent}</td>
                     <td>{item.date}</td>
                 </tr>
             </tbody>
