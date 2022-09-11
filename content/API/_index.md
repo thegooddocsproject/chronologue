@@ -3,6 +3,7 @@ title: Chronologue API documentation
 draft: false
 weight: "0"
 nav: true
+layout: list
 ---
 
 Welcome page.
