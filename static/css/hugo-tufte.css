@@ -167,10 +167,10 @@ h1.content-title a:focus {
 }
 
 .toc {
-	/*float: right;*/
-	/*padding: 0rem 1rem 1rem 1rem;*/
-    /*margin-top: 1rem;*/
-	/*border-left: 1px solid #eee;*/
+	float: left;
+	padding: 1rem 1rem 1rem 0rem;
+    margin-top: 1rem;
+	border-right: 1px solid #eee;
 }
 
 .toc ul {
