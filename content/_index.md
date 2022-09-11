@@ -10,3 +10,5 @@ Chronologue is a time-travel telescope, which allows you to look at astronomical
 {{% marginnote %}} Chronologue is a fictional object {{% /marginnote%}}
 
 Lorem ipsum dolor sit amet. {{% sidenote %}}Some sidenote{{% /sidenote %}} 
+
+This is a "list" page since it should list the other pages.
