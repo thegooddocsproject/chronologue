@@ -8,6 +8,7 @@ date: "2022-09-11"
 lastmod: "2022-09-11T11:47:00-07:00"
 author: "Valeria Hernandez"
 layout: single
+toc: true
 ---
 > Writing for developers that want to get acquainted with the API on a high level. I use the guidance from [about-overview.md](https://github.com/thegooddocsproject/templates/blob/dev/api-overview/about-overview.md) since there was no template in the repo. 
 
