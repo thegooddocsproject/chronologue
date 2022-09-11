@@ -40,16 +40,6 @@ p {
 }
 
 
-.eventContainer {
-  background-color: black;
-  color: white;
-}
-
-.eventContainer_flex {
-  display: flex;
-  flex-direction: row wrap;
-}
-
 .footer {
   background-color: black;
   padding: 20px;
