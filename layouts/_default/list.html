@@ -6,18 +6,17 @@
 {{ partial "brand.html" . }}
   {{ partial "content.header.html" . }}
   <section class="list-page">
-  {{ range .Data.Pages.GroupByDate "2006" }}
+  {{ range .Data.Pages.ByWeight }}
     <details open>
-      <summary class="year">{{ .Key }} ({{ len .Pages }})</summary>
-      {{ range .Pages.GroupByDate "January" }}
+      <summary class="year">({{ len .Pages }})</summary>
+      {{ range .Pages.ByWeight }}
         <ul>
           <li>
             <details open>
-              <summary>{{ .Key }} ({{ len .Pages }})</summary>
+              <summary>({{ len .Pages }})</summary>
                 {{ range .Pages }}
                   <ul>
                     <li>
-                      <span class="list-date">{{ .Date.Format "Jan 2" }} &middot;</span>
                       <a href="{{ .RelPermalink }}">{{.Title}}</a>
                     </li>
                   </ul>

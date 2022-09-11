@@ -1,7 +1,8 @@
 ---
 title: Chronologue user guide
-
+toc: false
+draft: false
+nav: true
 ---
 
-Welcome page.
-Ask UX designers how we can make this visually appealing.
+ABCDEFG

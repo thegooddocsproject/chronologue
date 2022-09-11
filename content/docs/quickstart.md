@@ -1,8 +1,6 @@
 ---
 title: Getting started with Chronologue
-sidebar_label: Quickstart
-sidebar_position: 10
-draft: false
+draft: true
 ---
 
 This document should test the quickstart template. 

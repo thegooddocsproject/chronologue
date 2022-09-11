@@ -1,8 +1,6 @@
 ---
 title: Requesting a new recording
-sidebar_label: Requesting a new recording
-sidebar_position: 30
-draft: false
+draft: true
 
 ---
 
