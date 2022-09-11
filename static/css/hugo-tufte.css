@@ -8,7 +8,7 @@
 /* with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use */
 /* specific font stacks to ensure the greatest OS/browser compatibility. */
 html, button, input, select, textarea, p, nav, section, article, header, footer, .pure-g [class *= "pure-u"] {
-    font-family: "et-book", -apple-system, "San Francisco", "Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Open Sans","Helvetica Neue", "Lucida Grand", sans-serif;
+    font-family: -apple-system, "San Francisco", "Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Open Sans","Helvetica Neue", "Lucida Grand", sans-serif;
 }
 
 /* Hugo code blocks are <pre><code class="language-$lang">...</code></pre> */
