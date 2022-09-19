@@ -27,7 +27,7 @@ Read and follow the steps described in the "Request for a new recording" documen
 
 
  
-![Chronologue API workflow]([https://drive.google.com/drive/u/0/folders/14g-_MmJNaUcYEs6nGl15Er5_Yj9JsCLS](https://drive.google.com/file/d/1QbjvwEExwCyPqTe0YeRo65lyi5g3pfo5/view?usp=sharing))
+![Chronologue API workflow]([https://drive.google.com/file/d/12_D--AJbQu7b8yJQFHbnTMpBIo_mZ9G5/view?usp=sharing])
 A high-level diagram of the Chronologue API's workflow. 
 
 
@@ -51,6 +51,8 @@ Use the Chronologue API to test your hypothesis. The Chronologue API can make pr
 Demonstrate to your audience the causal relationship between two natural events. For example, you can show your students the asteroid's impact on Earth during the Cretaceous Period that caused the mass extinction of three-quarters of plant and animal species. 
 
 ----------------------------------------------------------------------------------------------
+
+## How to contribute 
 
 Developers can contribute to the software by joining the Chronologue Project, which is part of The Good Docs project. To contribute to program code, you should be familiar with the following tools:
 
