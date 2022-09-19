@@ -27,7 +27,7 @@ Read and follow the steps described in the "Request for a new recording" documen
 
 
  
-![Chronologue API workflow]([https://drive.google.com/file/d/12_D--AJbQu7b8yJQFHbnTMpBIo_mZ9G5/view?usp=sharing])
+![Chronologue API workflow](https://drive.google.com/file/d/12_D--AJbQu7b8yJQFHbnTMpBIo_mZ9G5/view?usp=sharing)
 A high-level diagram of the Chronologue API's workflow. 
 
 
