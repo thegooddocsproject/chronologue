@@ -1,8 +1,3 @@
-<!-- Load MathJax, if necessary. -->
-{{ if or .Params.math .IsHome }}
-  {{ partial "math.html" . }}
-{{ end }}
-
 <!-- Syntax highlighting -->
 {{ partial "highlight.html" . }}
 
